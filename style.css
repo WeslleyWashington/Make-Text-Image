@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+}
+
+.container {
+    height: 100vh;
+    width: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.picture {
+    font-size: 18px;
+    line-height: 10px;
+    background: url("./minha-foto.jpg") fixed center no-repeat;
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(14, 12, 12, 0);
+}
